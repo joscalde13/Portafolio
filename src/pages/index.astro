@@ -4,7 +4,6 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout>
 
-
   <!-- NAV MENU --> 
   <header class="fixed top-0 left-0 right-0 z-50 bg-transparent py-6 px-8 backdrop-blur-lg">
 
@@ -17,14 +16,23 @@ import Layout from '../layouts/Layout.astro';
 
       <ul class="flex space-x-8 text-lg">
         
-       <a href="https://github.com/joscalde13" target="_blank" rel="noopener noreferrer" class=" hover:underline transition-all duration-300">GitHub</a>
+      <li>
+        <a 
+          href="https://github.com/joscalde13" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="relative transition-colors duration-200 hover:text-blue-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-blue-300 after:transition-all after:duration-300 hover:after:w-full after:absolute after:left-0 after:-bottom-1"
+          style="padding-bottom: 2px;"
+        >
+          GitHub
+        </a>
+      </li>
 
       </ul>
 
     </nav>
 
   </header>
-
 
 
 
@@ -45,22 +53,15 @@ import Layout from '../layouts/Layout.astro';
 
 
 
-
   <!-- SOBRE MI -->
   <section id="sobre-mi" class="py-24 bg-black text-white text-center scroll-fade opacity-0 translate-y-10 transition-all duration-1000 ease-out">
     
     <div class="max-w-4xl mx-auto">
-<<<<<<< HEAD
-      <h2 class="text-3xl font-bold mb-6 animate__animated animate__fadeIn">Sobre mí</h2>
-      <p class="text-lg animate__animated animate__fadeIn animate__delay-1s px-4 sm:px-6 md:px-0 mx-auto">Soy un desarrollador web apasionado por crear soluciones visuales atractivas y funcionales. Mi enfoque es siempre en la experiencia del usuario y en optimizar cada detalle técnico.</p>
-=======
       <h2 class="text-3xl font-bold mb-6">Sobre mí</h2>
       <p class="text-lg">Soy un desarrollador web apasionado por crear soluciones visuales atractivas y funcionales. Mi enfoque es siempre en la experiencia del usuario y en optimizar cada detalle técnico.</p>
->>>>>>> 5a21201 (scroll fade)
     </div>
  
   </section>
-
 
 
 
@@ -111,7 +112,6 @@ import Layout from '../layouts/Layout.astro';
 
 
 
-
 <!-- MIS PROYECTOS -->
 <section id="proyectos" class="py-24 bg-black text-white text-center scroll-fade opacity-0 translate-y-10 transition-all duration-1000 ease-out">
   <div class="max-w-7xl mx-auto px-6">
@@ -149,7 +149,6 @@ import Layout from '../layouts/Layout.astro';
 
 
 
-
   <!-- CONTACTO -->
   <section id="contacto" class="py-24 bg-black text-white text-center relative overflow-hidden scroll-fade opacity-0 translate-y-10 transition-all duration-1000 ease-out">
     
@@ -164,7 +163,6 @@ import Layout from '../layouts/Layout.astro';
   </section>
 
 
-
   <!-- Footer -->
   <footer class="py-6 text-center text-white bg-black scroll-fade opacity-0 translate-y-10 transition-all duration-1000 ease-out">
     <p>&copy; 2025 Mi Portafolio - Todos los derechos reservados.</p>
@@ -172,11 +170,9 @@ import Layout from '../layouts/Layout.astro';
 
 
 
-
   
 
   
-
 
 
 
